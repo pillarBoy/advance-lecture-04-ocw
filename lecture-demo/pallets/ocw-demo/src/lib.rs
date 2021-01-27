@@ -5,7 +5,7 @@
 #[cfg(test)]
 mod tests;
 
-use core::{convert::TryInto, fmt};
+use core::{convert::TryInto, f64, fmt};
 use frame_support::{
 	debug, decl_error, decl_event, decl_module, decl_storage, dispatch::DispatchResult,
 };
